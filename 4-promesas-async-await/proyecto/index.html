@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Remedios</title>
+    <link rel="stylesheet" href="style.css">
+</head><body>
+  <header>
+    <h1>Restaurante Remedios</h1>
+    <p>Reserva tu mesa sin necesidad de hacer fila</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Información Importante</h2>
+      <p>
+        Cada mesa está diseñada para 4 personas. Si son más de 4, podemos juntar las mesas. 
+        El cobro se realiza por mesa, incluso si no se ocupan los 4 asientos.
+      </p>
+    </section>
+
+    <section>
+      <h2>Checar Disponibilidad</h2>
+      <form id="reservaInfo">
+  <label for="nombre">Reservación a nombre de:</label>
+  <input type="text" id="nombre" name="nombre" placeholder="Pedro" required />
+
+  <label for="personas">Número de personas:</label>
+  <input type="number" id="personas" name="personas" min="1" max="20" placeholder="1" required />
+
+  <label for="fecha">Fecha:</label>
+  <input type="date" id="fecha" name="fecha" required />
+
+  <button type="submit">Reservar</button>
+</form>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
