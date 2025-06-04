@@ -1,0 +1,86 @@
+body {
+    background-image: url(https://3.bp.blogspot.com/-T-Hrqj0PMg8/XJy-GWsHTwI/AAAAAAAAC50/MgeUI6IQyREM4JAdmpT5YfpjVUQ_koJeACLcBGAs/s1600/curiosidades-sobre-bibliotecas-que-debes-conocer-ahora-mismo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    backdrop-filter: blur(5px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(58, 12, 12, 0.9);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+}
+
+h2 {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgba(87, 0, 0, 0.6);
+    border-left: 6px solid #c0392b;
+    border-radius: 8px;
+    color: #fff;
+}
+
+form, #btnConsultar, #btnActualizar {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+input, select {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+}
+
+button {
+    background-color: rgb(95, 20, 20);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(140, 30, 30);
+}
+
+#librosConsultados {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#librosConsultados li {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+#librosConsultados li:last-child {
+    border-bottom: none;
+}
