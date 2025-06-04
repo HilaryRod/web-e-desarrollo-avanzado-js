@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIBLIOTECA</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Biblioteca digital DH</h1>
+
+    <button id="btnConsultar">Consultar Libros</button>
+    <ul id="librosConsultados"></ul>
+    <h2>Agregar libro</h2>
+    <form id="formLibro">
+        <input id="titulo" placeholder="Título" required>
+        <input id="autor" placeholder="Autor" required>
+        <input id="genero" placeholder="Género" required>
+        <select id="disponible">
+            <option value="true">Disponible</option>
+            <option value="false">Prestado</option>
+        </select>
+        <button type="submit">Agregar</button>
+    </form>
+    <h2>Actualizar disponibilidad</h2>
+    <input id="tituloActualizar" placeholder="Título del libro">
+    <select id="nuevoEstado">
+        <option value="true">Disponible</option>
+        <option value="false">Prestado</option>
+    </select>
+    <button id="btnActualizar">Actualizar</button>
+    <script src="/2-callbacks-json/proyecto/app.js"></script>
+</body>
+</html>
