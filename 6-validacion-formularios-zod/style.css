@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor principal */
+main {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Título centrado */
+main h1 {
+  text-align: center;
+  color: #5c33a2;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+  background-color: #ffffffee;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+/* Etiquetas */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #3c2a6e;
+}
+
+/* Campo de error */
+.error-label {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Entradas */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #7b2cbf;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5a189a;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  main {
+    padding: 10px;
+  }
+
+  form {
+    padding: 20px 15px;
+  }
+
+  input, button {
+    font-size: 15px;
+  }
+}
